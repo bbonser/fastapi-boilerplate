@@ -22,7 +22,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@879dcbb708d40f8b8679d4f7941b938a086e23a7
         with:
-          images: bbonser/fastapi-boilerplate
+          images: bbonser/fastapi-boilerplate:latest
       
       - name: Build and push Docker image
         uses: docker/build-push-action@4c1b68d83ad20cc1a09620ca477d5bbbb5fa14d0
