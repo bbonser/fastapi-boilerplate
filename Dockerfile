@@ -1,5 +1,5 @@
 # Use an official Python runtime as a parent image
-FROM python:3.14.0rc1-alpine
+FROM python:3.14.0rc2-alpine
 
 # Set the working directory in docker
 WORKDIR /app
